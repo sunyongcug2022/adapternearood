@@ -25,7 +25,7 @@ def setup_seed(seed):
     
 def softmax(x):
     # 计算指数值
-    exp_values = np.exp(x )
+    exp_values = np.exp(x)
     # 计算每个样本的Softmax概率
     probabilities = exp_values / np.sum(exp_values)
     return probabilities
